@@ -44,7 +44,7 @@
   height: 60px;
   background: url(menu.png);
   background-repeat: no-repeat;
-  background-size: 30px;
+  background-size: 50px;
   background-position: center;
   cursor: pointer;
 }
@@ -138,4 +138,23 @@
   margin-left: 20px;
   transform: scale(0.5);
   transition: 0.5s;
+}
+
+.social li a:hover {
+  transform: scale(0.5) translateY(-15px);
+}
+
+@media (max-width: 991px) {
+  .showcase,
+  .showcase header {
+    padding: 40px;
+  }
+
+  .text h2 {
+    font-size: 4em;
+  }
+
+  .text h3 {
+    font-size: 2em;
+  }
 }
